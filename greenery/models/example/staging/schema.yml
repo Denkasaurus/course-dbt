@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_addresses
+    description: Contains address information
+  - name: stg_events
+    description: Contains web event information
+  - name: stg_order_items
+    description: Contains itemized information for each order
+  - name: stg_orders
+    description: Contains order information
+  - name: stg_products
+    description: Contains product information
+  - name: stg_promos
+    description: Contains promotional information
+  - name: stg_users
+    description: Contains personalized user information
