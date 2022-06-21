@@ -34,7 +34,7 @@
     FROM (
         SELECT
             order_id,
-            (EPOCH FROM(delivered_at - created_at)) as delivery_time
+            EXTRACT(EPOCH FROM(delivered_at - created_at)) as delivery_time
         FROM 
             dbt.dbt_jack_d.stg_orders
         ) as sq
