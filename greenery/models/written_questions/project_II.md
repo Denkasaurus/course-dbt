@@ -37,3 +37,11 @@ Good indicators of a user who will purchase again...
     survey response (y/n)
     survey response (g/b)
   shipping time
+
+## Adding Models 
+  I've added models mainly to aggregate on user and order levels. Intermediate marts are used to easily join datasets together in a repeatable fashion. they are then referenced for the end user marts.
+
+## Testing
+I struggled with the testing...  I couldnt figure out the freshness setup, I need to read/learn more about yml files and thier design.
+
+I think I could have also set up my intermediate marts in a better way for testing, and could push a signifigant amount of testing farther upstream.
