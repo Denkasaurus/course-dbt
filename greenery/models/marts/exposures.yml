@@ -1,0 +1,13 @@
+version: 2
+
+exposures:  
+  - name: Session Conversions Funnel Dashboard
+    description: >
+      Stage Conversion KPIs for sessions (for all time)
+    type: dashboard
+    maturity: high
+    owner:
+      name: Jack B. Denker
+      email: jack.denker@businesses.com
+    depends_on:
+      - ref('session_funnel')
